@@ -23,7 +23,24 @@
 	<main>
 	<article>
 		
+		<h2>Kalkulator BMI</h2>
 
+  		<label for="waga">Waga: </label>
+  		<input type="number" id="waga" placeholder="np. 70"><br><br>
+
+  		<label for="wzrost">Wzrost: </label>
+  		<input type="number" id="wzrost" placeholder="np. 175"><br><br>
+
+  		<label for="jednostki">Wybierz jednostki: </label>
+
+  		<select id="jednostki">
+    	<option value="metryczne">kg/cm</option>
+    	<option value="imperialne">lbs/in</option>
+  		</select><br><br>
+
+  		<button onclick="obliczBMI()">Oblicz BMI</button>
+
+  		<h3 id="wynik"></h3>
 		
 	</article>	
 	</main>
